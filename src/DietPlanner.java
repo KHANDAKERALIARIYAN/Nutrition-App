@@ -111,7 +111,7 @@ class DietPlanner {
 
     // Update nutritional intake based on the meal plan
     private void updateIntake(RecipeManager recipeManager) {
-        currentIntake.replaceAll((key, value) -> 0.0); // Reset intake
+        currentIntake.replaceAll((_, _) -> 0.0); // Reset intake
 
         for (String recipeName : mealPlan) {
             Recipe recipe = recipeManager.recipes.get(recipeName);
