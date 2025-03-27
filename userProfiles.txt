@@ -1,6 +1,0 @@
-Khandaker Ali Ariyan,21,100.00,Non-vegetarian
-Neherin Ahmed,31,200.00,veg
-Rufaida Ahmed,45,67.00,Vegeterian
-Samir Ali,21,89.00,Vegeterian
-Alif Islam,67,200.00,Non-vegetarian
-Khandaker Ali Ehsan,54,80.00,Non-vegetarian
