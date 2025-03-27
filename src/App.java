@@ -27,43 +27,6 @@ public class App {
     }
 
     // Feature: Manage User Profile
-//    public void manageUserProfile(Scanner scanner) {
-//        System.out.println("\n--- Manage User Profiles ---");
-//        System.out.println("1. View All Profiles");
-//        System.out.println("2. Add New Profile");
-//        System.out.println("3. Update Profile");
-//        System.out.println("4. Delete Profile");
-//        System.out.print("Choose an option: ");
-//
-//        try {
-//            int choice = scanner.nextInt();
-//            scanner.nextLine();
-//
-//            switch (choice) {
-//                case 1 -> userProfile.displayProfiles();
-//                case 2 -> {
-//                    UserProfile.UserProfileEntry profile = getProfileInput(scanner);
-//                    userProfile.addProfile(profile);
-//                }
-//                case 3 -> {
-//                    System.out.print("Enter name of the profile to update: ");
-//                    String name = scanner.nextLine();
-//                    UserProfile.UserProfileEntry profile = getProfileInput(scanner);
-//                    userProfile.updateProfile(name, profile);
-//                }
-//                case 4 -> {
-//                    System.out.print("Enter name of the profile to delete: ");
-//                    String name = scanner.nextLine();
-//                    userProfile.deleteProfile(name);
-//                }
-//                default -> System.out.println("Invalid choice.");
-//            }
-//        } catch (InputMismatchException e) {
-//            System.out.println("Invalid input. Please enter a number.");
-//            scanner.nextLine(); // Clear the invalid input
-//        }
-//    }
-    // In your App.java, modify each sub-menu method like this:
 
     public void manageUserProfile(Scanner scanner) {
         while (true) {  // Added loop for sub-menu
@@ -107,30 +70,6 @@ public class App {
     }
 
     // Feature: Manage Recipes
-//    public void manageRecipes(Scanner scanner) {
-//        System.out.println("\n--- Manage Recipes ---");
-//        System.out.println("1. Add Recipe");
-//        System.out.println("2. View Recipes");
-//        System.out.println("3. Edit Recipe");
-//        System.out.println("4. Delete Recipe");
-//        System.out.print("Choose an option: ");
-//
-//        try {
-//            int choice = scanner.nextInt();
-//            scanner.nextLine();
-//
-//            switch (choice) {
-//                case 1 -> recipeManager.addRecipe(scanner);
-//                case 2 -> recipeManager.viewRecipes();
-//                case 3 -> recipeManager.editRecipe(scanner);
-//                case 4 -> recipeManager.deleteRecipe(scanner);
-//                default -> System.out.println("Invalid choice.");
-//            }
-//        } catch (InputMismatchException e) {
-//            System.out.println("Invalid input. Please enter a number.");
-//            scanner.nextLine(); // Clear the invalid input
-//        }
-//    }
 
     public void manageRecipes(Scanner scanner) {
         while (true) {
@@ -162,12 +101,7 @@ public class App {
     }
 
     // Feature: Calculate Nutrition for a Recipe
-//    public void calculateNutrition(Scanner scanner) {
-//        System.out.print("\nEnter recipe name to calculate nutrition: ");
-//        String recipeName = scanner.nextLine();
-//        recipeManager.calculateNutrition(recipeName);
-//    }
-
+    
     public void calculateNutrition(Scanner scanner) {
         System.out.print("\nEnter recipe name to calculate nutrition: ");
         String recipeName = scanner.nextLine();
