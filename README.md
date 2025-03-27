@@ -58,8 +58,8 @@ The Nutrition App is a Java-based application designed to help users manage thei
 Clone the Repository:
 
 ```bash
-git clone https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2.git
-cd Nutrition-App-OOP-2
+git clone https://github.com/KHANDAKERALIARIYAN/Nutrition-App.git
+cd Nutrition-App
 ```
 
 Compile the Code:
@@ -88,7 +88,7 @@ Follow the on-screen instructions to use the app.
 
 When you run the app, you’ll see the following menu:
 
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/1.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/1.png)
 
 ### Managing User Profiles
 
@@ -100,7 +100,7 @@ When you run the app, you’ll see the following menu:
 
 - View Profiles: Display all saved profiles.
 
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/5.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/5.png)
 
 ### Managing Recipes
 
@@ -112,13 +112,13 @@ When you run the app, you’ll see the following menu:
 
 - View Recipes: Display all saved recipes.
 
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/6.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/6.png)
 
 ### Calculate Nutrition
 
 - Calculating calories , protein , fat , carbs in that food
 
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/7.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/7.png)
 
 ### Meal Planning
 
@@ -126,19 +126,19 @@ When you run the app, you’ll see the following menu:
 
 - View Meal Plan: Display the current meal plan.
 
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/8.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/8.png)
 
 ### Generate Shopping List
 
 - Generate Shopping List: Create a shopping list based on the ingredients required for the meal plan.
 
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/9.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/9.png)
 
 ### Export Meal Plan
 
 - Export Meal Plan: Save the meal plan to a file (mealPlan.txt).
 
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/10.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/10.png)
 
 ### Nutritional Goal Tracking
 
@@ -146,7 +146,7 @@ When you run the app, you’ll see the following menu:
 
 - View Warnings: Get notified if you exceed your goals.
 
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/11.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/11.png)
 
 ### Searching and Filtering Recipes
 
@@ -156,20 +156,20 @@ When you run the app, you’ll see the following menu:
 
 - Filter by Food Type: Display recipes categorized as vegetarian, non-vegetarian, or vegan.
 
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/12.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/12.png)
 
 ## File Structure
 
 The app uses the following files for data persistence:
 
 - userProfiles.txt: Stores user profiles.
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/2.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/2.png)
 
 - recipes.txt: Stores recipes.
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/3.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/3.png)
 
 - mealPlan.txt: Stores exported meal plans.
-![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App-OOP-2/blob/main/png%20file/4.png)
+![Initial page](https://github.com/KHANDAKERALIARIYAN/Nutrition-App/blob/main/png%20file/4.png)
 
 ## Contributor
 For questions or feedback, please contact:
