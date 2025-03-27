@@ -27,15 +27,14 @@ public class App {
     }
 
     // Feature: Manage User Profile
-
     public void manageUserProfile(Scanner scanner) {
-        while (true) {  // Added loop for sub-menu
+        while (true) {
             System.out.println("\n--- Manage User Profiles ---");
             System.out.println("1. View All Profiles");
             System.out.println("2. Add New Profile");
             System.out.println("3. Update Profile");
             System.out.println("4. Delete Profile");
-            System.out.println("0. Return to Main Menu");  // Added return option
+            System.out.println("0. Return to Main Menu");
             System.out.print("Choose an option: ");
 
             try {
@@ -59,10 +58,11 @@ public class App {
                         String name = scanner.nextLine();
                         userProfile.deleteProfile(name);
                     }
-                    case 0 -> { return; }  // Exit back to main menu
+                    case 0 -> { return; }
                     default -> System.out.println("Invalid choice.");
                 }
-            } catch (InputMismatchException e) {
+            } 
+            catch (InputMismatchException e) {
                 System.out.println("Invalid input. Please enter a number.");
                 scanner.nextLine();
             }
@@ -70,7 +70,6 @@ public class App {
     }
 
     // Feature: Manage Recipes
-
     public void manageRecipes(Scanner scanner) {
         while (true) {
             System.out.println("\n--- Manage Recipes ---");
@@ -93,7 +92,8 @@ public class App {
                     case 0 -> { return; }
                     default -> System.out.println("Invalid choice.");
                 }
-            } catch (InputMismatchException e) {
+            } 
+            catch (InputMismatchException e) {
                 System.out.println("Invalid input. Please enter a number.");
                 scanner.nextLine();
             }
@@ -101,90 +101,216 @@ public class App {
     }
 
     // Feature: Calculate Nutrition for a Recipe
-    
     public void calculateNutrition(Scanner scanner) {
-        System.out.print("\nEnter recipe name to calculate nutrition: ");
-        String recipeName = scanner.nextLine();
-        recipeManager.calculateNutrition(recipeName);
+        while (true) {
+            System.out.println("\n--- Calculate Nutrition ---");
+            System.out.println("1. Calculate for a recipe");
+            System.out.println("0. Return to Main Menu");
+            System.out.print("Choose an option: ");
 
-        System.out.println("\nPress Enter to return to main menu...");
-        scanner.nextLine();  // Wait for user input before returning
+            try {
+                int choice = scanner.nextInt();
+                scanner.nextLine();
+
+                switch (choice) {
+                    case 1 -> {
+                        System.out.print("Enter recipe name to calculate nutrition: ");
+                        String recipeName = scanner.nextLine();
+                        recipeManager.calculateNutrition(recipeName);
+                    }
+                    case 0 -> { return; }
+                    default -> System.out.println("Invalid choice.");
+                }
+            } 
+            catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine();
+            }
+        }
     }
 
     // Feature: Plan Diet
     public void planDiet(Scanner scanner) {
-        System.out.println("\n--- Plan Diet ---");
-        System.out.println("1. Create Meal Plan");
-        System.out.println("2. View Meal Plan");
-        System.out.print("Choose an option: ");
+        while (true) {
+            System.out.println("\n--- Plan Diet ---");
+            System.out.println("1. Create Meal Plan");
+            System.out.println("2. View Meal Plan");
+            System.out.println("0. Return to Main Menu");
+            System.out.print("Choose an option: ");
 
-        try {
-            int choice = scanner.nextInt();
-            scanner.nextLine();
+            try {
+                int choice = scanner.nextInt();
+                scanner.nextLine();
 
-            switch (choice) {
-                case 1 -> dietPlanner.createMealPlan(scanner, recipeManager);
-                case 2 -> dietPlanner.viewMealPlan();
-                default -> System.out.println("Invalid choice.");
+                switch (choice) {
+                    case 1 -> dietPlanner.createMealPlan(scanner, recipeManager);
+                    case 2 -> dietPlanner.viewMealPlan();
+                    case 0 -> { return; }
+                    default -> System.out.println("Invalid choice.");
+                }
+            } 
+            catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine();
             }
-        } catch (InputMismatchException e) {
-            System.out.println("Invalid input. Please enter a number.");
-            scanner.nextLine(); // Clear the invalid input
         }
     }
 
     // Feature: Ingredient Substitution Suggestion
     public void suggestIngredientSubstitution(Scanner scanner) {
-        System.out.print("\nEnter ingredient to substitute: ");
-        String ingredient = scanner.nextLine();
-        recipeManager.suggestSubstitution(ingredient);
+        while (true) {
+            System.out.println("\n--- Ingredient Substitution ---");
+            System.out.println("1. Get substitution suggestions");
+            System.out.println("0. Return to Main Menu");
+            System.out.print("Choose an option: ");
+
+            try {
+                int choice = scanner.nextInt();
+                scanner.nextLine();
+
+                switch (choice) {
+                    case 1 -> {
+                        System.out.print("Enter ingredient to substitute: ");
+                        String ingredient = scanner.nextLine();
+                        recipeManager.suggestSubstitution(ingredient);
+                    }
+                    case 0 -> { return; }
+                    default -> System.out.println("Invalid choice.");
+                }
+            } 
+            catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine();
+            }
+        }
     }
 
     // Feature: Categorize Recipes
     public void categorizeRecipes(Scanner scanner) {
-        System.out.println("\n--- Categorize Recipes ---");
-        recipeManager.categorizeRecipes();
+        while (true) {
+            System.out.println("\n--- Categorize Recipes ---");
+            System.out.println("1. Categorize all recipes");
+            System.out.println("0. Return to Main Menu");
+            System.out.print("Choose an option: ");
+
+            try {
+                int choice = scanner.nextInt();
+                scanner.nextLine();
+
+                switch (choice) {
+                    case 1 -> recipeManager.categorizeRecipes();
+                    case 0 -> { return; }
+                    default -> System.out.println("Invalid choice.");
+                }
+            } 
+            catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine();
+            }
+        }
     }
 
     // Feature: Generate Shopping List
     public void generateShoppingList(Scanner scanner) {
-        System.out.println("\n--- Generate Shopping List ---");
-        dietPlanner.generateShoppingList(recipeManager);
+        while (true) {
+            System.out.println("\n--- Generate Shopping List ---");
+            System.out.println("1. Generate list from meal plan");
+            System.out.println("0. Return to Main Menu");
+            System.out.print("Choose an option: ");
+
+            try {
+                int choice = scanner.nextInt();
+                scanner.nextLine();
+
+                switch (choice) {
+                    case 1 -> dietPlanner.generateShoppingList(recipeManager);
+                    case 0 -> { return; }
+                    default -> System.out.println("Invalid choice.");
+                }
+            } 
+            catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine();
+            }
+        }
     }
 
     // Feature: Track Nutritional Goals
     public void trackNutritionalGoals(Scanner scanner) {
-        System.out.println("\n--- Track Nutritional Goals ---");
-        dietPlanner.trackNutritionalGoals();
+        while (true) {
+            System.out.println("\n--- Track Nutritional Goals ---");
+            System.out.println("1. View current progress");
+            System.out.println("0. Return to Main Menu");
+            System.out.print("Choose an option: ");
+
+            try {
+                int choice = scanner.nextInt();
+                scanner.nextLine();
+
+                switch (choice) {
+                    case 1 -> dietPlanner.trackNutritionalGoals();
+                    case 0 -> { return; }
+                    default -> System.out.println("Invalid choice.");
+                }
+            } 
+            catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine();
+            }
+        }
     }
 
     // Feature: Search and Filter Recipes
     public void searchAndFilterRecipes(Scanner scanner) {
-        System.out.println("\n--- Search and Filter Recipes ---");
-        System.out.println("1. Search by Ingredient");
-        System.out.println("2. Filter by Calories");
-        System.out.println("3. Filter by Food Type");
-        System.out.print("Choose an option: ");
+        while (true) {
+            System.out.println("\n--- Search and Filter Recipes ---");
+            System.out.println("1. Search by Ingredient");
+            System.out.println("2. Filter by Calories");
+            System.out.println("3. Filter by Food Type");
+            System.out.println("0. Return to Main Menu");
+            System.out.print("Choose an option: ");
 
-        try {
-            int choice = scanner.nextInt();
-            scanner.nextLine();
+            try {
+                int choice = scanner.nextInt();
+                scanner.nextLine();
 
-            switch (choice) {
-                case 1 -> recipeManager.searchByIngredient(scanner);
-                case 2 -> recipeManager.filterByCalories(scanner);
-                case 3 -> recipeManager.filterByType(scanner);
-                default -> System.out.println("Invalid choice.");
+                switch (choice) {
+                    case 1 -> recipeManager.searchByIngredient(scanner);
+                    case 2 -> recipeManager.filterByCalories(scanner);
+                    case 3 -> recipeManager.filterByType(scanner);
+                    case 0 -> { return; }
+                    default -> System.out.println("Invalid choice.");
+                }
+            } 
+            catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine();
             }
-        } catch (InputMismatchException e) {
-            System.out.println("Invalid input. Please enter a number.");
-            scanner.nextLine(); // Clear the invalid input
         }
     }
 
     // Feature: Export Meal Plan
     public void exportMealPlan(Scanner scanner) {
-        System.out.println("\n--- Export Meal Plan ---");
-        dietPlanner.exportMealPlan();
+        while (true) {
+            System.out.println("\n--- Export Meal Plan ---");
+            System.out.println("1. Export current meal plan");
+            System.out.println("0. Return to Main Menu");
+            System.out.print("Choose an option: ");
+
+            try {
+                int choice = scanner.nextInt();
+                scanner.nextLine();
+
+                switch (choice) {
+                    case 1 -> dietPlanner.exportMealPlan();
+                    case 0 -> { return; }
+                    default -> System.out.println("Invalid choice.");
+                }
+            } 
+            catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a number.");
+                scanner.nextLine();
+            }
+        }
     }
 }
