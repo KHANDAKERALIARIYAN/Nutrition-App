@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class UserProfile {
+
     private final List<UserProfileEntry> profiles;
 
     public UserProfile() {
@@ -139,8 +140,7 @@ public class UserProfile {
 
         @Override
         public String toString() {
-            return String.format("Name: %s, Age: %d, Weight: %.2f KG, Preferences: %s",
-                    name, age, weight, preferences);
+            return String.format("Name: %s, Age: %d, Weight: %.2f KG, Preferences: %s",name, age, weight, preferences);
         }
     }
 }

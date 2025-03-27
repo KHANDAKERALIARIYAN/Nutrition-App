@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 class DietPlanner {
+    
     private final List<String> mealPlan;
     private final Map<String, Double> nutritionalGoals;
     private final Map<String, Double> currentIntake;

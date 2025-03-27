@@ -10,17 +10,29 @@ public class Main {
                 System.out.println("-----------------------------------------------------------------");
                 System.out.println("------------------------- Nutrition App -------------------------");
                 System.out.println("-----------------------------------------------------------------");
+                System.out.println();
                 System.out.println("1.  Manage User Profile");
+                System.out.println();
                 System.out.println("2.  Manage Recipes");
+                System.out.println();
                 System.out.println("3.  Calculate Nutrition for a Recipe");
+                System.out.println();
                 System.out.println("4.  Plan Diet");
+                System.out.println();
                 System.out.println("5.  Ingredient Substitution Suggestion");
+                System.out.println();
                 System.out.println("6.  Categorize Recipes");
+                System.out.println();
                 System.out.println("7.  Generate Shopping List");
+                System.out.println();
                 System.out.println("8.  Track Nutritional Goals");
+                System.out.println();
                 System.out.println("9.  Search and Filter Recipes");
+                System.out.println();
                 System.out.println("10. Export Meal Plan");
+                System.out.println();
                 System.out.println("0.  Exit ");
+                System.out.println();
                 System.out.print("Choose an option: ");
 
                 try {

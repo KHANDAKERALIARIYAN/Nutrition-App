@@ -2,6 +2,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
+    
     private final UserProfile userProfile;
     private final RecipeManager recipeManager;
     private final DietPlanner dietPlanner;

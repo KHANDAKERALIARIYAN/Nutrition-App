@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 class RecipeManager {
+    
     public final Map<String, Recipe> recipes;
 
     public RecipeManager() {
