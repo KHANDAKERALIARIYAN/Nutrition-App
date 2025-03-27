@@ -1,0 +1,44 @@
+Grilled Chicken;Chicken Breast, Olive Oil, Garlic, Herbs, Salt, Pepper;350.00;30.00;8.00;0.00;Marinate chicken, grill on medium heat until cooked through.
+Veggie Salad;Lettuce, Tomato, Cucumber, Olive Oil, Lemon Juice, Salt;200.00;2.00;5.00;18.00;Chop vegetables, mix, and drizzle with olive oil and lemon juice.
+Shrimp Stir-Fry;Shrimp, Bell Peppers, Broccoli, Soy Sauce, Sesame Oil, Garlic;300.00;25.00;8.00;15.00;Cook shrimp, stir-fry vegetables, and season with soy sauce.
+Pumpkin Soup;Pumpkin, Onion, Garlic, Cream, Vegetable Stock, Spices;180.00;5.00;10.00;20.00;Cook pumpkin and aromatics, blend with stock and cream, and season.
+Beef Stew;Beef, Potatoes, Carrots, Celery, Onion, Beef Stock, Spices;500.00;35.00;15.00;40.00;Brown beef, add vegetables and stock, simmer until tender.
+Quinoa Salad;Quinoa, Chickpeas, Bell Peppers, Olive Oil, Lemon Juice, Salt;250.00;8.00;6.00;40.00;Cook quinoa, mix with other ingredients, and serve.
+Lentil Soup;Lentils, Carrots, Celery, Onion, Garlic, Vegetable Stock;180.00;9.00;3.00;28.00;Sauté vegetables, add lentils and stock, simmer until cooked.
+Chocolate Cake;Flour, Sugar, Cocoa Powder, Eggs, Butter, Milk;450.00;6.00;20.00;50.00;Mix ingredients, bake at 350°F for 30 minutes.
+Fish Tacos;Tortillas, Fish Fillet, Cabbage, Lime, Salsa, Yogurt;300.00;20.00;10.00;30.00;Cook fish, assemble tacos with toppings, and serve with lime wedges.
+Caesar Salad;Romaine Lettuce, Croutons, Parmesan Cheese, Caesar Dressing;350.00;10.00;25.00;10.00;Chop lettuce, mix with croutons and cheese, toss in dressing, and serve.
+Chicken Curry;Chicken, Coconut Milk, Curry Paste, Onion, Garlic, Ginger, Spices;450.00;30.00;20.00;30.00;Cook chicken, sauté aromatics, add curry paste and coconut milk, simmer until cooked.
+Avocado Toast;Bread, Avocado, Salt, Pepper, Lemon Juice, Olive Oil;250.00;5.00;15.00;20.00;Toast bread, mash avocado with lemon juice, spread on toast, and season.
+Oatmeal Bowl;Oats, Milk, Banana, Peanut Butter, Honey;250.00;8.00;8.00;35.00;Cook oats in milk, top with banana slices, peanut butter, and drizzle with honey.
+Banana Bread;Bananas, Flour, Sugar, Eggs, Butter, Baking Powder;300.00;6.00;12.00;40.00;Mash bananas, mix with other ingredients, bake at 350°F for 50 minutes.
+Spaghetti Bolognese;Spaghetti, Ground Beef, Tomatoes, Garlic, Olive Oil, Salt, Herbs;500.00;25.00;15.00;60.00;Cook pasta, prepare sauce with beef and tomatoes, combine, and serve.
+Berry Parfait;Greek Yogurt, Granola, Blueberries, Strawberries, Honey;200.00;8.00;5.00;30.00;Layer yogurt, granola, and berries in a glass, drizzle with honey, and serve.
+Chickpea Curry;Chickpeas, Coconut Milk, Curry Paste, Spinach, Onion, Garlic;350.00;12.00;15.00;40.00;Cook aromatics, add chickpeas, curry paste, and coconut milk, simmer with spinach.
+Eggplant Parmesan;Eggplant, Tomato Sauce, Mozzarella, Parmesan, Bread Crumbs;350.00;12.00;15.00;30.00;Layer eggplant, sauce, and cheese, bake at 375°F for 30 minutes.
+Pancakes;Flour, Eggs, Milk, Sugar, Butter;400.00;8.00;10.00;50.00;Mix ingredients into batter, cook on a griddle, and serve.
+Fried Rice;Rice, Eggs, Carrots, Peas, Soy Sauce, Sesame Oil;300.00;10.00;8.00;45.00;Cook rice, scramble eggs, stir-fry with vegetables, and season.
+Tomato Soup;Tomatoes, Onions, Garlic, Vegetable Stock, Salt, Pepper;150.00;3.00;1.00;30.00;Chop vegetables, sauté in oil, add stock, simmer, and blend.
+Turkey Sandwich;Bread, Turkey Breast, Lettuce, Tomato, Mustard, Cheese;300.00;20.00;8.00;25.00;Assemble sandwich with all ingredients and serve.
+Vegan Smoothie;Banana, Spinach, Almond Milk, Peanut Butter;300.00;8.00;12.00;30.00;Blend all ingredients until smooth and serve chilled.
+Mango Smoothie;Mango, Yogurt, Orange Juice, Honey;200.00;6.00;3.00;35.00;Blend all ingredients until smooth and serve chilled.
+Vegetable Stir-Fry;Broccoli, Carrots, Bell Peppers, Soy Sauce, Garlic, Ginger, Sesame Oil;220.00; 6.00; 8.00; 30.00; Sauté garlic and ginger, add vegetables, stir-fry until tender, and season with soy sauce.
+Chicken Noodle Soup;Chicken Breast, Noodles, Carrots, Celery, Onion, Chicken Stock, Herbs;280.00; 25.00; 5.00; 30.00;Cook chicken, add vegetables and stock, simmer until tender, and add noodles.
+Vegetable Lasagna;Lasagna Noodles, Zucchini, Eggplant, Tomato Sauce, Ricotta Cheese, Mozzarella, Parmesan;350.00; 15.00; 12.00; 40.00;Layer noodles, vegetables, and cheese, bake at 375°F for 45 minutes.
+Tuna Salad;Tuna, Mayonnaise, Celery, Onion, Lemon Juice, Salt, Pepper;200.00; 20.00; 10.00; 5.00;Mix all ingredients and serve on bread or lettuce.
+Vegetable Curry;Potatoes, Cauliflower, Peas, Coconut Milk, Curry Paste, Onion, Garlic;300.00; 8.00; 12.00; 35.00;Sauté onions and garlic, add vegetables and curry paste, simmer with coconut milk.
+Chicken Caesar Wrap;Tortilla, Grilled Chicken, Romaine Lettuce, Caesar Dressing, Parmesan, Croutons;320.00; 25.00; 10.00; 30.00;Assemble ingredients in a tortilla, roll, and serve.
+Vegetable Omelette;Eggs, Bell Peppers, Onion, Spinach, Cheese, Salt, Pepper;250.00; 15.00; 18.00; 5.00;Whisk eggs, sauté vegetables, pour eggs over, cook until set, and fold.
+Beef Tacos;Ground Beef, Taco Seasoning, Tortillas, Lettuce, Cheese, Salsa;350.00; 20.00; 15.00; 30.00;Cook beef with seasoning, assemble tacos with toppings, and serve.
+Vegetable Fried Rice;Rice, Carrots, Peas, Eggs, Soy Sauce, Sesame Oil;280.00; 8.00; 6.00; 45.00;Cook rice, scramble eggs, stir-fry vegetables, and combine with rice.
+Chicken Alfredo Pasta;Pasta, Chicken Breast, Alfredo Sauce, Garlic, Parmesan, Parsley;450.00; 25.00; 20.00; 40.00;Cook pasta, sauté chicken, mix with Alfredo sauce, and top with Parmesan.
+Vegetable Pizza;Pizza Dough, Tomato Sauce, Mozzarella, Bell Peppers, Mushrooms, Onion, Olives;300.00; 12.00; 10.00; 35.00;Spread sauce on dough, add toppings, bake at 425°F for 15 minutes.
+Chicken Quesadilla;Tortilla, Chicken, Cheese, Bell Peppers, Onion, Salsa;320.00; 20.00; 12.00; 30.00;Assemble ingredients in a tortilla, cook on a skillet until cheese melts.
+Vegetable Soup;Carrots, Celery, Potatoes, Onion, Vegetable Stock, Herbs;150.00; 4.00; 2.00; 30.00;Sauté vegetables, add stock, simmer until tender.
+Grilled Salmon;Salmon Fllet, Olive Oil, Lemon, Garlic, Dill, Salt, Pepper;300.00; 30.00; 15.00; 2.00;Marinate salmon, grill until cooked through, and serve with lemon.
+Vegetable Stir-Fried Noodles;Noodles, Carrots, Bell Peppers, Soy Sauce, Garlic, Sesame Oil;280.00; 8.00; 6.00; 45.00;Cook noodles, stir-fry vegetables, combine with noodles, and season.
+Chicken Burrito Bowl;Rice, Grilled Chicken, Black Beans, Corn, Salsa, Cheese, Lettuce;400.00; 30.00; 10.00; 45.00;Layer rice, chicken, beans, and toppings in a bowl.
+Vegetable Frittata;Eggs, Zucchini, Bell Peppers, Onion, Cheese, Salt, Pepper;250.00; 15.00; 18.00; 5.00;Whisk eggs, sauté vegetables, pour eggs over, bake at 375°F for 20 minutes.
+Beef Burger;Ground Beef, Burger Bun, Lettuce, Tomato, Cheese, Pickles, Ketchup;450.00; 25.00; 20.00; 35.00;Cook beef patty, assemble burger with toppings, and serve.
+Vegetable Sushi Rolls;Sushi Rice, Nori, Cucumber, Avocado, Carrot, Soy Sauce;200.00; 5.00; 2.00; 40.00;Spread rice on nori, add vegetables, roll tightly, and slice.
+Chicken and Rice Casserole;Chicken, Rice, Cream of Mushroom Soup, Cheese, Broccoli;350.00; 20.00; 12.00; 30.00;Mix ingredients, bake at 375°F for 30 minutes.
