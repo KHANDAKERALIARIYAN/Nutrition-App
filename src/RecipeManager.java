@@ -31,9 +31,11 @@ class RecipeManager {
             recipes.put(name, recipe);
             saveRecipes();
             System.out.println("Recipe added successfully.");
-        } catch (NumberFormatException e) {
+        } 
+        catch (NumberFormatException e) {
             System.out.println("Invalid nutritional values. Please enter numbers.");
-        } catch (ArrayIndexOutOfBoundsException e) {
+        } 
+        catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Please enter all four nutritional values (calories, protein, fat, carbs).");
         }
     }
@@ -118,7 +120,8 @@ class RecipeManager {
             System.out.printf("Fat: %.2f g\n", recipe.getFat());
             System.out.printf("Carbs: %.2f g\n", recipe.getCarbs());
             System.out.println("-------------------------------------------");
-        } else {
+        } 
+        else {
             System.out.println("Recipe not found.");
         }
     }
@@ -181,7 +184,8 @@ class RecipeManager {
         System.out.println("\n" + categoryName + ":");
         if (recipes.isEmpty()) {
             System.out.println("No recipes available.");
-        } else {
+        } 
+        else {
             for (Recipe recipe : recipes) {
                 System.out.println("- " + recipe.getName());
             }
@@ -289,7 +293,8 @@ class RecipeManager {
                         recipe.getCalories(), recipe.getProtein(),
                         recipe.getFat(), recipe.getCarbs(), recipe.getSteps());
             }
-        } catch (IOException e) {
+        } 
+        catch (IOException e) {
             System.out.println("Error saving recipes: " + e.getMessage());
         }
     }
