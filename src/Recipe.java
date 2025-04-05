@@ -114,9 +114,11 @@ public class Recipe {
                 ingredients.toLowerCase().contains("beef") || ingredients.toLowerCase().contains("mutton") ||
                 ingredients.toLowerCase().contains("prawn") || ingredients.toLowerCase().contains("fish")) {
             return "NonVegetarian";
-        } else if (ingredients.toLowerCase().contains("milk") || ingredients.toLowerCase().contains("cheese")) {
+        } 
+        else if (ingredients.toLowerCase().contains("milk") || ingredients.toLowerCase().contains("cheese")) {
             return "Vegetarian";
-        } else {
+        } 
+        else {
             return "Vegan";
         }
     }
